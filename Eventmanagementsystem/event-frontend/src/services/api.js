@@ -6,7 +6,7 @@ import axios from 'axios';
 // If Vercel gives us a URL, use it. Otherwise, use localhost.
 //const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8080/api";
 // Replace the URL below with YOUR specific Render link
-const API_URL = "https://eventmanagementsystem-7wg6.onrender.com";
+const API_URL = "https://eventmanagementsystem-7wg6.onrender.com/api";
 
 
 
