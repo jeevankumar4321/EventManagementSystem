@@ -4,7 +4,10 @@ import axios from 'axios';
 //const API_URL = "http://localhost:8080/api";
 
 // If Vercel gives us a URL, use it. Otherwise, use localhost.
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8080/api";
+//const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8080/api";
+// Replace the URL below with YOUR specific Render link
+const API_URL = "https://event-management-system-xxxx.onrender.com/api";
+
 
 // Helper Function: Adds the Token to the header
 const getHeader = () => {
